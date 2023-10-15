@@ -1,0 +1,25 @@
+.blogs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.blog {
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.blog .header {
+  font-size: x-large;
+  border-bottom: 2px solid grey;
+}
+
+.blog .hero {
+  padding: 10px;
+  height: 100px;
+}
+
+.blog .footer {
+  border-top: 2px solid grey;
+}
